@@ -1,12 +1,12 @@
 package ua.nure.mamaiev;
 
-import java.util.Calendar;
+import java.util.Date;
 
 public class User {
 	private Long id;
 	private String firstName;
 	private String lastName;
-	private Calendar dateOfBirth;
+	private Date dateOfBirth;
 	public Long getId() {
 		return id;
 	}
@@ -25,10 +25,10 @@ public class User {
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
-	public Calendar getDateOfBirth() {
+	public Date getDateOfBirth() {
 		return dateOfBirth;
 	}
-	public void setDateOfBirth(Calendar dateOfBirth) {
+	public void setDateOfBirth(Date dateOfBirth) {
 		this.dateOfBirth = dateOfBirth;
 	}
 	@Override
