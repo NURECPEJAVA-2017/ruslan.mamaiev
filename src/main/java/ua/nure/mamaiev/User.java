@@ -45,6 +45,7 @@ public class User {
 		int a = currentYear - year;
 		int b = currentMonth - month;
 		int c = currentDay - day;
+		return a;
 	}
 	@Override
 	public String toString() {
